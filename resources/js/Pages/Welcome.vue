@@ -10,9 +10,7 @@ defineProps({
     phpVersion: String as PropType<string>,
 })
 
-const user = computed(() => {
-    return (usePage().props.value as inertia.Props).user
-})
+const user = computed(() => (usePage().props.value as inertia.Props).user)
 </script>
 
 <template>

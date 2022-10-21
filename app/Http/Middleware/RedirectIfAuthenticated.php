@@ -19,7 +19,7 @@ class RedirectIfAuthenticated
      * @param  string|null  ...$guards
      * @return Response|RedirectResponse
      */
-    public function handle(Request $request, Closure $next, ...$guards): Response|RedirectResponse
+    public function handle(Request $request, Closure $next, ...$guards)
     {
         $guards = empty($guards) ? [null] : $guards;
 

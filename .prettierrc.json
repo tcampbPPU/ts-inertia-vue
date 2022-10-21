@@ -1,0 +1,23 @@
+{
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "importOrder": [
+        "./bootstrap",
+        "../css/app.css",
+        "^vue(.*)$",
+        "^@vue/(.*)$",
+        "<THIRD_PARTY_MODULES>",
+        "^ziggy-js(.*)$",
+        "^@inertiajs/(.*)$",
+        "^@/types/(.*)$",
+        "^@/Pages/(.*)$",
+        "^@/Layouts/(.*)$",
+        "^@/Jetstream/(.*)$",
+        "^@/Components/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": false
+}

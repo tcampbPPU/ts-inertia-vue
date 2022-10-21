@@ -1,6 +1,7 @@
 {
     "preset": "laravel",
     "exclude": [
+        ".vscode/**",
         "resources/js/**",
         "resources/css/**",
         "resources/markdown/**"

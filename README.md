@@ -1,7 +1,7 @@
 # Typescript Implementation for Laravel Inertia Vue Project
 
 
-Demo project for the article [I wrote ...]()
+Demo project for the article [I wrote](https://tannercampbell.com/using_typescript_with_inertiajs_and_vue/)
 
 ##
 

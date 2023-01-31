@@ -12,7 +12,6 @@ defineProps({
 
 const user = computed(() => (usePage().props.value as inertia.Props).user)
 </script>
-
 <template>
     <Head title="Welcome" />
 

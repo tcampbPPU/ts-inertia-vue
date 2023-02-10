@@ -1,19 +1,21 @@
-export {};
+export {}
 declare global {
     export namespace inertia {
-        export interface Props {
-            user: {
-                id: number;
-                name: string;
-                email: string;
-                created_at: Date;
-                updated_at: Date;
-            };
-            jetstream: {
-                [key: string]: boolean;
-            };
-            errorBags: unknown;
-            errors: unknown;
+
+        export interface User {
+            id: number
+            name: string
+            email: string
+            created_at: Date
+            updated_at: Date
         }
+
+        export interface Jetstream {
+            [key: string]: boolean
+        }
+
+        export type ErrorBags = undefined | { [key: string]: string[] }
+
+        export type Errors = undefined | string[]
     }
 }

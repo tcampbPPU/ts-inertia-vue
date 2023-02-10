@@ -1,12 +1,11 @@
 # Typescript Implementation for Laravel Inertia Vue Project
 
-
-Demo project for the article [I wrote](https://tannercampbell.com/using_typescript_with_inertiajs_and_vue/)
+Demo project for the article [I wrote](https://tannercampbell.com/using_typescript_with_inertiajs_and_vue)
 
 ##
 
 ```bash
-git clone ...
+git clone git@github.com:tcampbPPU/ts-inertia-vue.git && cd ts-inertia-vue
 ```
 
 ```bash
@@ -32,5 +31,5 @@ yarn dev
 ```
 
 ```bash
-php artisan serve
+php artisan serve || yarn serve
 ```

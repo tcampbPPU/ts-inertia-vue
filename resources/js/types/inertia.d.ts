@@ -1,5 +1,6 @@
 export {}
 declare global {
+
     export namespace inertia {
 
         export interface User {
@@ -17,5 +18,10 @@ declare global {
         export type ErrorBags = undefined | { [key: string]: string[] }
 
         export type Errors = undefined | string[]
+
+        export type Flash = {
+            message: undefined | string
+            error: undefined | string[]
+        }
     }
 }

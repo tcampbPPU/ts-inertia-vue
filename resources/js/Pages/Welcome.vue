@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { ComputedRef, PropType } from 'vue'
+import type { PropType } from 'vue'
 import { computed } from 'vue'
 import route from 'ziggy-js'
 import { Head, Link, usePage } from '@inertiajs/vue3'
@@ -11,7 +11,7 @@ defineProps({
   phpVersion: String as PropType<string>,
 })
 
-const user = computed(() => usePage().props?.user) as ComputedRef<inertia.User | undefined>
+const user = computed(() => usePage<{ user: inertia.User }>().props?.user)
 </script>
 
 <template>

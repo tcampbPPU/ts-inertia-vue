@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { computed, PropType } from 'vue'
 import route from 'ziggy-js'
-import { Head, Link, usePage } from '@inertiajs/inertia-vue3'
+import { Head, Link, usePage } from '@inertiajs/vue3'
 
 defineProps({
     canLogin: Boolean as PropType<boolean>,
@@ -10,7 +10,7 @@ defineProps({
     phpVersion: String as PropType<string>,
 })
 
-const user = computed(() => (usePage().props.value as inertia.Props).user)
+const user = computed(() => usePage().props?.user)
 </script>
 <template>
     <Head title="Welcome" />

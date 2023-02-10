@@ -7,16 +7,14 @@
         "format": "composer pint; yarn lint",
         "stan": "composer stan",
         "db": "./artisan db",
-        "api": "./artisan serve",
+        "serve": "./artisan serve",
         "seed": "./artisan migrate:fresh --seed"
     },
     "contributors": [
         "Tanner Campbell <tcamp022@gmail.com>"
     ],
     "devDependencies": {
-        "@inertiajs/inertia": "^0.11.0",
-        "@inertiajs/inertia-vue3": "^0.6.0",
-        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/vue3": "^1.0.0",
         "@tailwindcss/forms": "^0.5.2",
         "@tailwindcss/typography": "^0.5.2",
         "@trivago/prettier-plugin-sort-imports": "^3.4.0",

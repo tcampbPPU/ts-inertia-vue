@@ -1,9 +1,7 @@
-import { PageProps } from '@inertiajs/inertia'
-
 export {}
 declare global {
     export namespace inertia {
-        export interface Props extends PageProps {
+        export interface Props {
             user: {
                 id: number
                 name: string

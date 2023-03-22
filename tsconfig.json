@@ -1,40 +1,25 @@
 {
     "compilerOptions": {
-        "target": "esnext",
-        "module": "esnext",
-        "moduleResolution": "node",
-        "strict": true,
-        "jsx": "preserve",
-        "sourceMap": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
         "allowJs": true,
-        "lib": [
-            "esnext",
-            "dom"
-        ],
-        "types": [
-            "@types/node",
-            "@types/ziggy-js"
-        ],
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "jsx": "preserve",
+        "strict": true,
+        "isolatedModules": true,
+        "target": "ESNext",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "skipLibCheck": true,
         "paths": {
             "@/*": [
-                "./resources/js/*",
+                "./resources/js/*"
             ]
-        },
-        "outDir": "./public/build/assets",
+        }
     },
-    "typeRoots": [
-        "./node_modules/@types",
-        "resources/js/types"
-    ],
     "include": [
         "resources/js/**/*.ts",
         "resources/js/**/*.d.ts",
         "resources/js/**/*.vue"
-    ],
-    "exclude": [
-        "node_modules",
-        "public"
     ]
 }
